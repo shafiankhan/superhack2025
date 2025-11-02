@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ALT-20241102-001",
+    "device_name": "SERVER-PROD-01",
+    "alert_type": "Pending Reboot",
+    "description": "System requires restart after Windows Security Updates installation. Last reboot: 7 days ago.",
+    "severity": "High",
+    "timestamp": "2024-11-02T08:15:00Z",
+    "raw_text": "SERVER-PROD-01: Pending Reboot - System requires restart after Windows Security Updates installation. Last reboot: 7 days ago. Updates installed: KB5031356, KB5031364, KB5031370"
+  },
+  {
+    "id": "ALT-20241102-002", 
+    "device_name": "WORKSTATION-HR-05",
+    "alert_type": "Disk Space Critical",
+    "description": "C: drive has only 2.1 GB (5%) free space remaining. User documents folder consuming 45 GB.",
+    "severity": "Critical",
+    "timestamp": "2024-11-02T08:22:00Z",
+    "raw_text": "WORKSTATION-HR-05: Disk Space Critical - C: drive has only 2.1 GB (5%) free space remaining. Total: 250 GB, Used: 247.9 GB, Free: 2.1 GB. Largest folders: Documents (45 GB), Downloads (12 GB)"
+  },
+  {
+    "id": "ALT-20241102-003",
+    "device_name": "PRINTER-OFFICE-02", 
+    "alert_type": "Device Offline",
+    "description": "Network printer has been offline for 3 hours 15 minutes. Last seen: 05:07 AM.",
+    "severity": "Medium",
+    "timestamp": "2024-11-02T08:30:00Z",
+    "raw_text": "PRINTER-OFFICE-02: Device Offline - Network printer has been offline for 3 hours 15 minutes. IP: 192.168.1.150, Last seen: 05:07 AM, Status: Unreachable"
+  },
+  {
+    "id": "ALT-20241102-004",
+    "device_name": "SERVER-SQL-03",
+    "alert_type": "Service Stopped", 
+    "description": "SQL Server Database Engine service has stopped unexpectedly. Error code: 1067.",
+    "severity": "Critical",
+    "timestamp": "2024-11-02T08:35:00Z",
+    "raw_text": "SERVER-SQL-03: Service Stopped - SQL Server Database Engine (MSSQLSERVER) service has stopped unexpectedly at 08:33 AM. Error code: 1067 - The process terminated unexpectedly. Event ID: 7034"
+  },
+  {
+    "id": "ALT-20241102-005",
+    "device_name": "LAPTOP-SALES-12",
+    "alert_type": "Antivirus Update Failed",
+    "description": "Windows Defender failed to download latest virus definitions. Last successful update: 2 days ago.",
+    "severity": "Medium", 
+    "timestamp": "2024-11-02T08:40:00Z",
+    "raw_text": "LAPTOP-SALES-12: Antivirus Update Failed - Windows Defender failed to download latest virus definitions. Error: 0x80072ee7. Last successful update: October 31, 2024 at 6:15 AM"
+  },
+  {
+    "id": "ALT-20241102-006",
+    "device_name": "WORKSTATION-DEV-08",
+    "alert_type": "High CPU Usage",
+    "description": "CPU usage has been above 90% for the last 45 minutes. Process: Visual Studio (devenv.exe).",
+    "severity": "Medium",
+    "timestamp": "2024-11-02T08:45:00Z", 
+    "raw_text": "WORKSTATION-DEV-08: High CPU Usage - CPU usage has been above 90% for 45 minutes. Top process: devenv.exe (Visual Studio) using 78% CPU. Total CPU: 94%, Memory: 87%"
+  },
+  {
+    "id": "ALT-20241102-007",
+    "device_name": "SERVER-BACKUP-04",
+    "alert_type": "Backup Failed",
+    "description": "Nightly backup job failed at 02:30 AM. Error: Destination drive not accessible.",
+    "severity": "High",
+    "timestamp": "2024-11-02T08:50:00Z",
+    "raw_text": "SERVER-BACKUP-04: Backup Failed - Nightly backup job 'Daily-Full-Backup' failed at 02:30 AM. Error: The system cannot find the path specified (0x80070003). Destination: \\\\NAS-01\\Backups"
+  },
+  {
+    "id": "ALT-20241102-008",
+    "device_name": "FIREWALL-MAIN-01", 
+    "alert_type": "Security Alert",
+    "description": "Multiple failed login attempts detected from IP 203.45.67.89. 47 attempts in last hour.",
+    "severity": "High",
+    "timestamp": "2024-11-02T08:55:00Z",
+    "raw_text": "FIREWALL-MAIN-01: Security Alert - Multiple failed login attempts detected. Source IP: 203.45.67.89, Attempts: 47 in last hour, Target: RDP (port 3389), Status: Blocked"
+  },
+  {
+    "id": "ALT-20241102-009",
+    "device_name": "TABLET-CONF-15",
+    "alert_type": "Low Battery",
+    "description": "Device battery level is at 8% and has been unplugged for 6 hours.",
+    "severity": "Low",
+    "timestamp": "2024-11-02T09:00:00Z",
+    "raw_text": "TABLET-CONF-15: Low Battery - Battery level at 8%, unplugged for 6 hours. Last charge: November 1, 2024 at 11:45 PM. Estimated time remaining: 23 minutes"
+  },
+  {
+    "id": "ALT-20241102-010",
+    "device_name": "SWITCH-NETWORK-06",
+    "alert_type": "Port Down", 
+    "description": "Network switch port 24 has been down for 2 hours. Connected device: WORKSTATION-ACC-09.",
+    "severity": "Medium",
+    "timestamp": "2024-11-02T09:05:00Z",
+    "raw_text": "SWITCH-NETWORK-06: Port Down - Port 24 (Gi0/24) has been down for 2 hours 12 minutes. Last connected device: WORKSTATION-ACC-09 (MAC: 00:1B:44:11:3A:B7), Status: Link Down"
+  }
+]
